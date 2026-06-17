@@ -1,6 +1,9 @@
 # Cles SSH
 *.pem
 
+# Config locale Claude Code
+.claude/
+
 # --- Terraform ---
 # Dossiers .terraform locaux (providers, modules telecharges)
 **/.terraform/*
