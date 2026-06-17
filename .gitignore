@@ -1,0 +1,31 @@
+# Cles SSH
+*.pem
+
+# --- Terraform ---
+# Dossiers .terraform locaux (providers, modules telecharges)
+**/.terraform/*
+
+# Fichiers d'etat (peuvent contenir des donnees sensibles)
+*.tfstate
+*.tfstate.*
+
+# Fichiers de crash
+crash.log
+crash.*.log
+
+# Variables (souvent des secrets) - on garde les exemples
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Fichiers de surcharge
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Configuration CLI Terraform
+.terraformrc
+terraform.rc
+
+# NB : .terraform.lock.hcl DOIT etre versionne (ne pas l'ignorer)
