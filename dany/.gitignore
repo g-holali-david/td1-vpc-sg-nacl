@@ -1,0 +1,9 @@
+# Secrets et état local — NE JAMAIS pousser sur GitHub
+.keys/
+*.pem
+.td-state.env
+.td-state.env.tmp
+
+# Divers
+*.log
+*.tmp
