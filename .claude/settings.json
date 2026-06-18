@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/holal/.ssh/**)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\holal\\.ssh"
+    ]
+  }
+}

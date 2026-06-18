@@ -1,0 +1,25 @@
+# Terraform
+# Provider binaries & local working dir (never commit — can be hundreds of MB)
+**/.terraform/*
+.terraform/
+
+# State files (may contain secrets)
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may hold secrets
+*.tfvars
+*.tfvars.json
+
+# CLI config / overrides
+.terraformrc
+terraform.rc
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
